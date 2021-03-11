@@ -1,0 +1,78 @@
+.headerCell {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-box-direction: normal;
+    font-size: 14px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-weight: 500;
+    box-sizing: inherit;
+    cursor: pointer;
+    color: #33a2e5;
+    padding: 5px;
+    background: #202226;
+    border-top: 2px solid #141619;
+    border-bottom: 2px solid #141619;
+    height: 2em;
+    text-align: center;
+}
+
+.cell {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    color: #c7d0d9;
+    -webkit-box-direction: normal;
+    font-size: 14px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: inherit;
+    padding: .45em 1.1em;
+    border-bottom: 2px solid #141619;
+    border-right: 2px solid #141619;
+}
+
+tr:nth-child(even) {
+    background-color: #121416;
+}
+
+tr:nth-child(odd) {
+    background-color: #0f1b2a;
+}
+
+.headerCellInActive {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-box-direction: normal;
+    font-size: 14px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-weight: 500;
+    box-sizing: inherit;
+    cursor: pointer;
+    color: #a3242e;
+    padding: 5px;
+    background-color: #131418;
+    border-top: 2px solid #141619;
+    border-bottom: 2px solid #141619;
+    height: 2em;
+    text-align: center;
+}
+
+.cellInActive {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    color: #c7d0d9;
+    background-color: #571319;
+    -webkit-box-direction: normal;
+    font-size: 14px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: inherit;
+    padding: .45em 1.1em;
+    border-bottom: 2px solid #141619;
+    border-right: 2px solid #141619;
+}
